@@ -1,0 +1,247 @@
+/******************************** 
+		 GENERAL SELECTORS 
+*********************************/
+
+body {
+	font-size: 1.7em;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.btn {
+	border-radius: 10px;
+}
+
+/******************************** 
+		 TOP OF THE PAGE 
+*********************************/
+
+/* Remove border-bottom on top nav*/
+
+.navbar-default {
+	border-bottom: none;
+}
+
+.navbar-default {
+	height: 60px;
+}
+
+/* Push The Navbar Links Left Slightly */
+
+.ul-wrapper {
+	margin-right: 30px;
+}
+
+/* Between Nav and Calendar */
+
+.nav-table-separation {
+	width: 50%;
+	height: 55px;
+}
+
+.nav-links {
+	font-size: 1.05em;
+	margin-top: 3px;
+}
+
+/* Hover Effect On The Nav Links */
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #00BFFF;
+	transition: 0.1s ease;
+}
+
+/* Center The Top Of Page Header */
+
+.header-wrapper {
+	text-align: center;
+	margin-top: -6px;
+}
+
+.calendar-header {
+	color: #2E4F4E;
+	font-size: 2.5em;
+	margin-top: 30px;
+	margin-bottom: -5px;
+}
+
+/******************************** 
+      START OF THE CALENDAR 
+*********************************/
+
+/* Start of Table Styles */
+
+
+.table-wrapper {
+	margin: 25px auto 25px auto;
+	width: 800px;
+}
+
+/* Set Cell Width */
+
+td {
+	width: 110px;
+}
+
+/* Center Calendar Cell Headers */
+
+th {
+	text-align: center;
+	color: #2E4F4E;
+	font-weight: bolder;
+}
+
+/* Center Calendar Cell Headers */
+
+tr td:first-child {
+	font-style: italic;
+	text-align: center;
+}
+
+/* Center Calendar Cell Headers */
+
+.editable {
+	transition: background-color 0.05s ease;
+}
+
+/* Cell Hover Effect */
+
+.editable:hover {
+	background-color: #00BFFF;
+	opacity: 0.85;
+}
+
+/* Striped every other row */
+
+.striped-background {
+	background-color: #B5CCCB;
+}
+
+/******************************** 
+      START OF THE CALENDAR 
+*********************************/
+
+.modal-centering {
+    display:block;
+    position:relative;
+    top:295px;
+    left:17%;
+    -webkit-transform: translate(-%17, -17%);
+    -ms-transform: translate(-17%, -17%);
+    transform: translate(-17%, -17%);
+}
+
+.modal-custom {
+	height: 152px;
+	width: 400px;
+	position: relative;
+}
+
+.modal-text {
+	position: absolute;
+	top: 2px;
+	left: 15px;
+}
+
+.form-control-two {
+	position: absolute;
+	top: -5px;
+	left: -27px;
+	margin-top: 5px;
+	width: 371px;
+	height: 128px;
+}
+
+.form-control-two:focus {
+	border-color: #45767F;
+	box-shadow: 0 0.5px 0.5px #45767F inset, 0 0 4px #45767F;
+}	
+
+/* Modal Save Button */
+.save-button {
+	position: absolute;
+	bottom: 10px;
+	right: 99px;
+	width: 75px;
+}
+
+.save-button:hover {
+	color: #fff;
+	background-color: #00BFFF;
+	background-color: #00BFFF;
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+	border-color: #00BFFF;
+	transition: background-color 0.03s ease;
+}
+
+/* Modal Close Button */
+.close-button {
+	position: absolute;
+	bottom: 10px;
+	right: 13px;
+	background-color: #45767F;
+	width: 75px;
+}
+
+.close-button:hover {
+	color: #fff;
+	background-color: #00BFFF;
+	background-color: #00BFFF;
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+	border-color: #00BFFF;
+	transition: background-color 0.03s ease;
+}
+
+/* START OF GENERATED SCHEDULE DATA  */
+
+/* Free Time Calculation Button */
+
+/* Button That Generates Scheduled Data */
+.submit-button-wrapper {
+	margin-top: -2px;
+	margin-bottom: 15px;
+}
+
+.submit-button {
+	background-color: #45767F;
+	border-color: #45767F;
+}
+
+.submit-button:hover {
+	color: #fff;
+	background-color: #00BFFF;
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+	border-color: #00BFFF;
+	transition: background-color 0.04s ease-in;
+}
+
+/* Scheduled Header Wrapper */
+
+.generated-header-wrapper {
+	margin: 5px auto 15px auto;
+	clear: both;
+}
+
+/* Chart */
+
+#myfirstchart {
+	height: 400px;
+}
+
+.chart-visibility {
+	display: none;
+	font-size: 8px;
+}
+
+#myfirstchart svg {
+	height: 422px;
+}
+
