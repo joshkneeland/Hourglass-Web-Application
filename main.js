@@ -66,7 +66,7 @@ $(document).on('ready', function() {
 
 
 		// VAR THAT APPENDS GENERATED HTML AND FREETIME AMOUNT TO THE BOTTOM OF THE CALENDAR
-		var generatedInfo = $('<div class="generated-header-wrapper text-center"><h1 class="generated-header">Yo Josh! you got ' + freeTime + ' hours of free time available.</h1></div>');
+		var generatedInfo = $('<div class="generated-header-wrapper text-center"><h1 class="generated-header">Yo Josh! You have ' + freeTime + ' hours of free time available.</h1></div>');
 		$('.schedule-wrapper').html(generatedInfo);
 		event.stopPropagation();
 
