@@ -15,7 +15,9 @@ $(document).on('ready', function() {
 		})
 
 		// THE MODAL LIGHTBOX FADES IN ON CLICK OF EDITABLE CALENDAR BLOCK
+
 		$('.bs-example-modal-lg').modal('show');
+		
 
 		// THIS CODE OCCURS ONLY ON CLICK OF THE SAVE BUTTON
 		$('.save-button').one('click', function(e) {
@@ -29,6 +31,7 @@ $(document).on('ready', function() {
 
 			$('.bs-example-modal-lg').modal('hide');
 		});
+
 
 		// REMOVE ALL EVENT HANDLERS ON CLICK
 		$('.close-button').one('click', function() {
@@ -63,7 +66,7 @@ $(document).on('ready', function() {
 
 
 		// VAR THAT APPENDS GENERATED HTML AND FREETIME AMOUNT TO THE BOTTOM OF THE CALENDAR
-		var generatedInfo = $('<div class="generated-header-wrapper text-center"><h1 class="generated-header">Josh, you have ' + freeTime + ' hours of free time available.</h1></div>');
+		var generatedInfo = $('<div class="generated-header-wrapper text-center"><h1 class="generated-header">Yo Josh! you got ' + freeTime + ' hours of free time available.</h1></div>');
 		$('.schedule-wrapper').html(generatedInfo);
 		event.stopPropagation();
 
